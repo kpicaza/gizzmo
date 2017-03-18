@@ -15,5 +15,8 @@
     "henrikbjorn/phpspec-code-coverage": "^3.0",
     "memio/spec-gen": "^0.6",
     "phpspec/phpspec": "^3.0@beta"
+  },
+  "scripts": {
+    "spec": "phpspec describe"
   }
 }

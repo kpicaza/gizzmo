@@ -4,4 +4,4 @@
 # Third party libraries
 /vendor/
 /composer.lock
-
+coverage.clover
