@@ -4,3 +4,4 @@ vendor
 .idea
 /*local.php
 packages/php-slack-bot
+public
