@@ -1,0 +1,772 @@
+{
+  "items": [
+    {
+      "tags": [
+        "git"
+      ],
+      "owner": {
+        "reputation": 6993,
+        "user_id": 98151,
+        "user_type": "registered",
+        "accept_rate": 60,
+        "profile_image": "https://www.gravatar.com/avatar/e83b38029ee4962c56737a9b977905b3?s=128&d=identicon&r=PG",
+        "display_name": "daniel",
+        "link": "http://stackoverflow.com/users/98151/daniel"
+      },
+      "is_answered": true,
+      "view_count": 32865,
+      "accepted_answer_id": 8904080,
+      "answer_count": 4,
+      "score": 30,
+      "last_activity_date": 1453478877,
+      "creation_date": 1326849270,
+      "question_id": 8903953,
+      "link": "http://stackoverflow.com/questions/8903953/git-revert-last-commit-and-remove-it-from-history",
+      "title": "Git revert last commit and remove it from history"
+    },
+    {
+      "tags": [
+        "git",
+        "git-revert"
+      ],
+      "owner": {
+        "reputation": 490,
+        "user_id": 727238,
+        "user_type": "registered",
+        "accept_rate": 61,
+        "profile_image": "https://www.gravatar.com/avatar/5d098a48ad5efbe0e59cb39b36b8bb36?s=128&d=identicon&r=PG",
+        "display_name": "ardabro",
+        "link": "http://stackoverflow.com/users/727238/ardabro"
+      },
+      "is_answered": true,
+      "view_count": 67,
+      "answer_count": 1,
+      "score": 2,
+      "last_activity_date": 1458556531,
+      "creation_date": 1458554513,
+      "last_edit_date": 1458555106,
+      "question_id": 36127938,
+      "link": "http://stackoverflow.com/questions/36127938/git-revert-from-to-what-is-really-reverted",
+      "title": "git revert &lt;from&gt;..&lt;to&gt; - what is REALLY reverted?"
+    },
+    {
+      "tags": [
+        "git",
+        "git-rm"
+      ],
+      "owner": {
+        "reputation": 4430,
+        "user_id": 89021,
+        "user_type": "registered",
+        "accept_rate": 98,
+        "profile_image": "https://www.gravatar.com/avatar/bc3b63c70c5123dac2c035dc4ca94843?s=128&d=identicon&r=PG",
+        "display_name": "user89021",
+        "link": "http://stackoverflow.com/users/89021/user89021"
+      },
+      "is_answered": true,
+      "view_count": 128128,
+      "accepted_answer_id": 2125738,
+      "answer_count": 10,
+      "score": 251,
+      "last_activity_date": 1479411686,
+      "creation_date": 1264301250,
+      "last_edit_date": 1456488741,
+      "question_id": 2125710,
+      "link": "http://stackoverflow.com/questions/2125710/how-to-revert-a-git-rm-r",
+      "title": "How to revert a &quot;git rm -r .&quot;?"
+    },
+    {
+      "tags": [
+        "git",
+        "github"
+      ],
+      "owner": {
+        "reputation": 1544,
+        "user_id": 145277,
+        "user_type": "registered",
+        "accept_rate": 71,
+        "profile_image": "https://www.gravatar.com/avatar/f2f320767a0a724c639058da7ca7dbd0?s=128&d=identicon&r=PG",
+        "display_name": "Mo J. Mughrabi",
+        "link": "http://stackoverflow.com/users/145277/mo-j-mughrabi"
+      },
+      "is_answered": true,
+      "view_count": 52,
+      "accepted_answer_id": 20034291,
+      "answer_count": 1,
+      "score": 1,
+      "last_activity_date": 1384711725,
+      "creation_date": 1384711381,
+      "question_id": 20034226,
+      "link": "http://stackoverflow.com/questions/20034226/revert-the-git-last-commit-and-apply-it-to-github-for-deployment-scripts",
+      "title": "revert the git last commit and apply it to github for deployment scripts"
+    },
+    {
+      "tags": [
+        "svn",
+        "tortoisesvn"
+      ],
+      "owner": {
+        "reputation": 14352,
+        "user_id": 93468,
+        "user_type": "registered",
+        "accept_rate": 60,
+        "profile_image": "https://i.stack.imgur.com/AVfwZ.jpg?s=128&g=1",
+        "display_name": "PositiveGuy",
+        "link": "http://stackoverflow.com/users/93468/positiveguy"
+      },
+      "is_answered": true,
+      "view_count": 1254,
+      "accepted_answer_id": 1647569,
+      "answer_count": 3,
+      "score": 1,
+      "last_activity_date": 1256913576,
+      "creation_date": 1256865605,
+      "last_edit_date": 1256867132,
+      "question_id": 1647534,
+      "link": "http://stackoverflow.com/questions/1647534/revert-from-revision",
+      "title": "Revert From Revision"
+    },
+    {
+      "tags": [
+        "git",
+        "commit",
+        "revert"
+      ],
+      "owner": {
+        "reputation": 3453,
+        "user_id": 1455384,
+        "user_type": "registered",
+        "accept_rate": 60,
+        "profile_image": "https://www.gravatar.com/avatar/4b402d3012a9074b276741f75610a9ca?s=128&d=identicon&r=PG",
+        "display_name": "Andrius",
+        "link": "http://stackoverflow.com/users/1455384/andrius"
+      },
+      "is_answered": true,
+      "view_count": 1577,
+      "accepted_answer_id": 22042476,
+      "answer_count": 3,
+      "score": 1,
+      "last_activity_date": 1402772527,
+      "creation_date": 1393420047,
+      "last_edit_date": 1393420093,
+      "question_id": 22042379,
+      "link": "http://stackoverflow.com/questions/22042379/git-how-to-roll-back-all-changes-to-last-commit",
+      "title": "Git - how to roll back all changes to last commit?"
+    },
+    {
+      "tags": [
+        "iphone",
+        "git"
+      ],
+      "owner": {
+        "reputation": 9010,
+        "user_id": 207524,
+        "user_type": "registered",
+        "accept_rate": 78,
+        "profile_image": "https://www.gravatar.com/avatar/f7204a1f9d3a10e3b044e2e8ca58c877?s=128&d=identicon&r=PG",
+        "display_name": "Crystal",
+        "link": "http://stackoverflow.com/users/207524/crystal"
+      },
+      "is_answered": true,
+      "view_count": 6520,
+      "accepted_answer_id": 10115185,
+      "answer_count": 2,
+      "score": 1,
+      "last_activity_date": 1334185871,
+      "creation_date": 1334184402,
+      "last_edit_date": 1334184837,
+      "question_id": 10115053,
+      "link": "http://stackoverflow.com/questions/10115053/reverting-to-last-commit-in-xcode-4-using-git",
+      "title": "Reverting to last commit in Xcode 4 using Git"
+    },
+    {
+      "tags": [
+        "git",
+        "git-revert"
+      ],
+      "owner": {
+        "reputation": 1,
+        "user_id": 2267532,
+        "user_type": "registered",
+        "profile_image": "https://www.gravatar.com/avatar/79be20dd55ec3a1420c0fb139579b47f?s=128&d=identicon&r=PG",
+        "display_name": "Akshit Singla",
+        "link": "http://stackoverflow.com/users/2267532/akshit-singla"
+      },
+      "is_answered": false,
+      "view_count": 39,
+      "answer_count": 1,
+      "score": 0,
+      "last_activity_date": 1438182879,
+      "creation_date": 1438181686,
+      "last_edit_date": 1438182433,
+      "question_id": 31704050,
+      "link": "http://stackoverflow.com/questions/31704050/git-revert-head-when-i-have-a-local-commit",
+      "title": "git revert HEAD when I have a local commit"
+    },
+    {
+      "tags": [
+        "git",
+        "azure"
+      ],
+      "owner": {
+        "reputation": 1088,
+        "user_id": 2824542,
+        "user_type": "registered",
+        "accept_rate": 61,
+        "profile_image": "https://www.gravatar.com/avatar/13b3decdde5918939edd96379ec49e0a?s=128&d=identicon&r=PG&f=1",
+        "display_name": "Jim Blum",
+        "link": "http://stackoverflow.com/users/2824542/jim-blum"
+      },
+      "is_answered": true,
+      "view_count": 450,
+      "accepted_answer_id": 21061070,
+      "answer_count": 2,
+      "score": 1,
+      "last_activity_date": 1389487470,
+      "creation_date": 1389401674,
+      "last_edit_date": 1389487470,
+      "question_id": 21057143,
+      "link": "http://stackoverflow.com/questions/21057143/revert-to-previous-commit-windows-azure",
+      "title": "Revert to previous commit Windows Azure"
+    },
+    {
+      "tags": [
+        "git"
+      ],
+      "owner": {
+        "reputation": 10762,
+        "user_id": 358438,
+        "user_type": "registered",
+        "accept_rate": 73,
+        "profile_image": "https://www.gravatar.com/avatar/3cd012da868ace78128ce29ba4c83bed?s=128&d=identicon&r=PG",
+        "display_name": "Skizit",
+        "link": "http://stackoverflow.com/users/358438/skizit"
+      },
+      "is_answered": true,
+      "view_count": 16589,
+      "accepted_answer_id": 6007875,
+      "answer_count": 3,
+      "score": 14,
+      "last_activity_date": 1361557092,
+      "creation_date": 1305455703,
+      "question_id": 6007855,
+      "link": "http://stackoverflow.com/questions/6007855/revert-to-local-commit",
+      "title": "Revert to local commit?"
+    },
+    {
+      "tags": [
+        "git",
+        "version-control"
+      ],
+      "owner": {
+        "reputation": 329,
+        "user_id": 1347193,
+        "user_type": "registered",
+        "accept_rate": 88,
+        "profile_image": "https://www.gravatar.com/avatar/acca9fa3bb1a6cab9d0111afb88147d8?s=128&d=identicon&r=PG",
+        "display_name": "ALTN",
+        "link": "http://stackoverflow.com/users/1347193/altn"
+      },
+      "is_answered": true,
+      "view_count": 264,
+      "accepted_answer_id": 32097187,
+      "answer_count": 2,
+      "score": 2,
+      "last_activity_date": 1440172392,
+      "creation_date": 1439991074,
+      "last_edit_date": 1440172392,
+      "question_id": 32096983,
+      "link": "http://stackoverflow.com/questions/32096983/git-revert-back-to-previous-commit-and-keep-committing-new-changes-to-master",
+      "title": "Git revert back to previous commit and keep committing new changes to master"
+    },
+    {
+      "tags": [
+        "git"
+      ],
+      "owner": {
+        "reputation": 3135,
+        "user_id": 613605,
+        "user_type": "registered",
+        "accept_rate": 93,
+        "profile_image": "https://www.gravatar.com/avatar/998f50cbd33e0f514d679aa82f34f61d?s=128&d=identicon&r=PG",
+        "display_name": "Ciwan",
+        "link": "http://stackoverflow.com/users/613605/ciwan"
+      },
+      "is_answered": true,
+      "view_count": 61,
+      "closed_date": 1483508278,
+      "accepted_answer_id": 41427944,
+      "answer_count": 1,
+      "score": 1,
+      "last_activity_date": 1483364438,
+      "creation_date": 1483362412,
+      "question_id": 41427441,
+      "link": "http://stackoverflow.com/questions/41427441/revert-back-to-specific-commit-in-git",
+      "closed_reason": "duplicate",
+      "title": "Revert back to specific commit in Git"
+    },
+    {
+      "tags": [
+        "git"
+      ],
+      "owner": {
+        "reputation": 20138,
+        "user_id": 92153,
+        "user_type": "registered",
+        "accept_rate": 85,
+        "profile_image": "https://i.stack.imgur.com/kxyts.png?s=128&g=1",
+        "display_name": "Houman",
+        "link": "http://stackoverflow.com/users/92153/houman"
+      },
+      "is_answered": true,
+      "view_count": 105,
+      "accepted_answer_id": 31372357,
+      "answer_count": 1,
+      "score": 2,
+      "last_activity_date": 1436737335,
+      "creation_date": 1436733409,
+      "question_id": 31372321,
+      "link": "http://stackoverflow.com/questions/31372321/how-to-revert-a-commit-and-create-a-new-branch-from-those-changes",
+      "title": "How to revert a commit and create a new branch from those changes?"
+    },
+    {
+      "tags": [
+        "github"
+      ],
+      "owner": {
+        "reputation": 291,
+        "user_id": 4548969,
+        "user_type": "registered",
+        "accept_rate": 59,
+        "profile_image": "https://www.gravatar.com/avatar/de72c949e09b546f74ccbb2f33aa6c29?s=128&d=identicon&r=PG&f=1",
+        "display_name": "venkat",
+        "link": "http://stackoverflow.com/users/4548969/venkat"
+      },
+      "is_answered": true,
+      "view_count": 348,
+      "accepted_answer_id": 37709337,
+      "answer_count": 1,
+      "score": 0,
+      "last_activity_date": 1465408526,
+      "creation_date": 1465401583,
+      "last_edit_date": 1465406095,
+      "question_id": 37707473,
+      "link": "http://stackoverflow.com/questions/37707473/how-to-revert-undo-my-last-two-pushes-commit-and-revert-in-github",
+      "title": "How to revert / undo my last two pushes (commit and revert) in github?"
+    },
+    {
+      "tags": [
+        "git",
+        "git-revert"
+      ],
+      "owner": {
+        "reputation": 103,
+        "user_id": 1470314,
+        "user_type": "registered",
+        "accept_rate": 86,
+        "profile_image": "https://www.gravatar.com/avatar/a860e5aa3c67d1c4c1f7fb49ade64569?s=128&d=identicon&r=PG",
+        "display_name": "yuvalm2",
+        "link": "http://stackoverflow.com/users/1470314/yuvalm2"
+      },
+      "is_answered": true,
+      "view_count": 63,
+      "accepted_answer_id": 39121666,
+      "answer_count": 1,
+      "score": 2,
+      "last_activity_date": 1472036925,
+      "creation_date": 1472035927,
+      "last_edit_date": 1472036574,
+      "question_id": 39121300,
+      "link": "http://stackoverflow.com/questions/39121300/git-revert-explanation",
+      "title": "Git revert explanation"
+    },
+    {
+      "tags": [
+        "git",
+        "bitbucket"
+      ],
+      "owner": {
+        "reputation": 1164,
+        "user_id": 1202500,
+        "user_type": "registered",
+        "accept_rate": 67,
+        "profile_image": "https://www.gravatar.com/avatar/9610771f63a2ef756784bb8736c693ab?s=128&d=identicon&r=PG",
+        "display_name": "mozzbozz",
+        "link": "http://stackoverflow.com/users/1202500/mozzbozz"
+      },
+      "is_answered": true,
+      "view_count": 2637,
+      "accepted_answer_id": 19035765,
+      "answer_count": 2,
+      "score": 2,
+      "last_activity_date": 1380223855,
+      "creation_date": 1380215659,
+      "last_edit_date": 1380218564,
+      "question_id": 19034484,
+      "link": "http://stackoverflow.com/questions/19034484/messed-up-local-git-repository-how-to-revert-a-revert-to-match-last-remote-c",
+      "title": "Messed up local git repository - how to &quot;revert a revert&quot; to match last remote commit again?"
+    },
+    {
+      "tags": [
+        "git",
+        "github"
+      ],
+      "owner": {
+        "reputation": 13687,
+        "user_id": 223367,
+        "user_type": "registered",
+        "accept_rate": 73,
+        "profile_image": "https://www.gravatar.com/avatar/0fbb73c54febded60ce062bb69b2c32a?s=128&d=identicon&r=PG&f=1",
+        "display_name": "Trace",
+        "link": "http://stackoverflow.com/users/223367/trace"
+      },
+      "is_answered": true,
+      "view_count": 849,
+      "accepted_answer_id": 8124442,
+      "answer_count": 3,
+      "score": -1,
+      "last_activity_date": 1349129828,
+      "creation_date": 1321286595,
+      "question_id": 8124343,
+      "link": "http://stackoverflow.com/questions/8124343/how-to-revert-a-previous-commit-on-the-master-branch-and-save-the-code-in-anothe",
+      "title": "How to revert a previous commit on the master branch and save the code in another branch?"
+    },
+    {
+      "tags": [
+        "git",
+        "git-revert"
+      ],
+      "owner": {
+        "reputation": 699,
+        "user_id": 299499,
+        "user_type": "registered",
+        "accept_rate": 78,
+        "profile_image": "https://www.gravatar.com/avatar/8e5d95e629c4b6cad8f2349f6ad833fe?s=128&d=identicon&r=PG",
+        "display_name": "mike_hornbeck",
+        "link": "http://stackoverflow.com/users/299499/mike-hornbeck"
+      },
+      "is_answered": true,
+      "view_count": 172,
+      "accepted_answer_id": 14337328,
+      "answer_count": 1,
+      "score": 2,
+      "last_activity_date": 1358254835,
+      "creation_date": 1358250589,
+      "question_id": 14337066,
+      "link": "http://stackoverflow.com/questions/14337066/properly-revert-git-merge-commited-to-origin",
+      "title": "Properly revert git merge commited to origin"
+    },
+    {
+      "tags": [
+        "mercurial",
+        "undo"
+      ],
+      "owner": {
+        "reputation": 8532,
+        "user_id": 301032,
+        "user_type": "registered",
+        "accept_rate": 66,
+        "profile_image": "https://www.gravatar.com/avatar/06b3210955831102992eb6b1d0a0e612?s=128&d=identicon&r=PG",
+        "display_name": "richzilla",
+        "link": "http://stackoverflow.com/users/301032/richzilla"
+      },
+      "is_answered": true,
+      "view_count": 10308,
+      "accepted_answer_id": 10305711,
+      "answer_count": 3,
+      "score": 15,
+      "last_activity_date": 1335470918,
+      "creation_date": 1335299875,
+      "last_edit_date": 1335301983,
+      "question_id": 10305643,
+      "link": "http://stackoverflow.com/questions/10305643/how-do-i-revert-a-file-to-last-checkin-state-in-mercurial",
+      "title": "How do I revert a file to &#39;last checkin&#39; state in Mercurial?"
+    },
+    {
+      "tags": [
+        "git",
+        "git-branch",
+        "git-revert"
+      ],
+      "owner": {
+        "reputation": 1302,
+        "user_id": 611901,
+        "user_type": "registered",
+        "accept_rate": 79,
+        "profile_image": "https://www.gravatar.com/avatar/5f811c06e5a3b361c60bb3f191ea3e46?s=128&d=identicon&r=PG",
+        "display_name": "Makers_F",
+        "link": "http://stackoverflow.com/users/611901/makers-f"
+      },
+      "is_answered": true,
+      "view_count": 256,
+      "accepted_answer_id": 8575707,
+      "answer_count": 2,
+      "score": 1,
+      "last_activity_date": 1324386776,
+      "creation_date": 1324385141,
+      "question_id": 8575658,
+      "link": "http://stackoverflow.com/questions/8575658/revert-many-commit-after-the-creation-of-a-branch",
+      "title": "Revert many commit after the creation of a branch"
+    },
+    {
+      "tags": [
+        "git",
+        "github"
+      ],
+      "owner": {
+        "reputation": 2675,
+        "user_id": 1291122,
+        "user_type": "registered",
+        "accept_rate": 52,
+        "profile_image": "https://i.stack.imgur.com/xQ8Ud.jpg?s=128&g=1",
+        "display_name": "rahulserver",
+        "link": "http://stackoverflow.com/users/1291122/rahulserver"
+      },
+      "is_answered": true,
+      "view_count": 31,
+      "accepted_answer_id": 32652706,
+      "answer_count": 1,
+      "score": 0,
+      "last_activity_date": 1442581573,
+      "creation_date": 1442575884,
+      "last_edit_date": 1442581305,
+      "question_id": 32650975,
+      "link": "http://stackoverflow.com/questions/32650975/git-refer-to-commit-that-was-merged-into-the-current-branch",
+      "title": "Git refer to commit that was merged into the current branch"
+    },
+    {
+      "tags": [
+        "git",
+        "github",
+        "git-revert"
+      ],
+      "owner": {
+        "reputation": 889,
+        "user_id": 3014041,
+        "user_type": "registered",
+        "accept_rate": 76,
+        "profile_image": "https://www.gravatar.com/avatar/7433d852e4ed35b9a7651702dacb40d6?s=128&d=identicon&r=PG&f=1",
+        "display_name": "naneri",
+        "link": "http://stackoverflow.com/users/3014041/naneri"
+      },
+      "is_answered": true,
+      "view_count": 54,
+      "answer_count": 2,
+      "score": 0,
+      "last_activity_date": 1430824449,
+      "creation_date": 1430819789,
+      "last_edit_date": 1430823223,
+      "question_id": 30049744,
+      "link": "http://stackoverflow.com/questions/30049744/how-can-i-reset-to-a-commit-and-make-it-master",
+      "title": "How can I reset to a commit and make it master?"
+    },
+    {
+      "tags": [
+        "git"
+      ],
+      "owner": {
+        "reputation": 979,
+        "user_id": 1336855,
+        "user_type": "registered",
+        "accept_rate": 50,
+        "profile_image": "https://www.gravatar.com/avatar/d6059ac32dea0fc1ad0397bb0f03ef10?s=128&d=identicon&r=PG&f=1",
+        "display_name": "Jngai1297",
+        "link": "http://stackoverflow.com/users/1336855/jngai1297"
+      },
+      "is_answered": true,
+      "view_count": 56,
+      "accepted_answer_id": 21653797,
+      "answer_count": 1,
+      "score": 1,
+      "last_activity_date": 1391907969,
+      "creation_date": 1391906874,
+      "question_id": 21653749,
+      "link": "http://stackoverflow.com/questions/21653749/revert-pushed-work-on-git-to-previous-commits",
+      "title": "Revert Pushed Work on Git to Previous Commits"
+    },
+    {
+      "tags": [
+        "svn"
+      ],
+      "owner": {
+        "reputation": 12410,
+        "user_id": 521070,
+        "user_type": "registered",
+        "accept_rate": 72,
+        "profile_image": "https://www.gravatar.com/avatar/6e5c24c66968738e5afe3a694cb11570?s=128&d=identicon&r=PG&f=1",
+        "display_name": "Michael",
+        "link": "http://stackoverflow.com/users/521070/michael"
+      },
+      "is_answered": true,
+      "view_count": 147,
+      "accepted_answer_id": 19433591,
+      "answer_count": 1,
+      "score": 2,
+      "last_activity_date": 1382031726,
+      "creation_date": 1382026487,
+      "question_id": 19431948,
+      "link": "http://stackoverflow.com/questions/19431948/i-see-my-reverted-svn-commit-in-svn-log",
+      "title": "I see my reverted SVN commit in svn log"
+    },
+    {
+      "tags": [
+        "git",
+        "deployment",
+        "ansible",
+        "ansible-playbook"
+      ],
+      "owner": {
+        "reputation": 852,
+        "user_id": 167033,
+        "user_type": "registered",
+        "accept_rate": 67,
+        "profile_image": "https://www.gravatar.com/avatar/8bc7685b1c8b11a604567415bcfd0929?s=128&d=identicon&r=PG",
+        "display_name": "Mukesh Yadav",
+        "link": "http://stackoverflow.com/users/167033/mukesh-yadav"
+      },
+      "is_answered": false,
+      "view_count": 158,
+      "answer_count": 1,
+      "score": 0,
+      "last_activity_date": 1450787339,
+      "creation_date": 1450784331,
+      "question_id": 34415085,
+      "link": "http://stackoverflow.com/questions/34415085/how-to-get-the-commit-id-of-git-while-doing-ansbile-deploy",
+      "title": "How to get the commit id of git while doing ansbile deploy"
+    },
+    {
+      "tags": [
+        "git",
+        "github",
+        "bitbucket"
+      ],
+      "owner": {
+        "reputation": 46,
+        "user_id": 1805774,
+        "user_type": "registered",
+        "accept_rate": 78,
+        "profile_image": "https://www.gravatar.com/avatar/e41aa362be7eff0f486961d3237e82d3?s=128&d=identicon&r=PG",
+        "display_name": "Rey_mysterio",
+        "link": "http://stackoverflow.com/users/1805774/rey-mysterio"
+      },
+      "is_answered": true,
+      "view_count": 88,
+      "answer_count": 2,
+      "score": 0,
+      "last_activity_date": 1394169787,
+      "creation_date": 1394166023,
+      "last_edit_date": 1394166536,
+      "question_id": 22241382,
+      "link": "http://stackoverflow.com/questions/22241382/how-to-revert-back-the-merged-branch-from-master",
+      "title": "How to revert back the merged branch from master?"
+    },
+    {
+      "tags": [
+        "git"
+      ],
+      "owner": {
+        "reputation": 15652,
+        "user_id": 1082219,
+        "user_type": "registered",
+        "accept_rate": 84,
+        "profile_image": "https://www.gravatar.com/avatar/ed7ba0d2fe0e66f98fdadd8d664dc45a?s=128&d=identicon&r=PG",
+        "display_name": "1000 molecules of fructose",
+        "link": "http://stackoverflow.com/users/1082219/1000-molecules-of-fructose"
+      },
+      "is_answered": true,
+      "view_count": 36,
+      "accepted_answer_id": 41000697,
+      "answer_count": 2,
+      "score": 1,
+      "last_activity_date": 1481043214,
+      "creation_date": 1481042795,
+      "question_id": 41000572,
+      "link": "http://stackoverflow.com/questions/41000572/how-to-undo-more-than-one-commit",
+      "title": "How to undo more than one commit"
+    },
+    {
+      "tags": [
+        "git"
+      ],
+      "owner": {
+        "reputation": 27510,
+        "user_id": 286802,
+        "user_type": "registered",
+        "accept_rate": 68,
+        "profile_image": "https://www.gravatar.com/avatar/700f3ac94a7d463cb5a9cc0318ae77d8?s=128&d=identicon&r=PG",
+        "display_name": "michael",
+        "link": "http://stackoverflow.com/users/286802/michael"
+      },
+      "is_answered": true,
+      "view_count": 5988,
+      "accepted_answer_id": 8716640,
+      "answer_count": 3,
+      "score": 4,
+      "last_activity_date": 1459550479,
+      "creation_date": 1325613530,
+      "last_edit_date": 1325615365,
+      "question_id": 8716594,
+      "link": "http://stackoverflow.com/questions/8716594/how-can-i-un-do-a-git-commit-after-a-git-push",
+      "title": "How can I un-do a git commit AFTER a git push?"
+    },
+    {
+      "tags": [
+        "git",
+        "version-control",
+        "github",
+        "github-for-mac"
+      ],
+      "owner": {
+        "reputation": 2427,
+        "user_id": 659075,
+        "user_type": "registered",
+        "accept_rate": 78,
+        "profile_image": "https://www.gravatar.com/avatar/677bf9708d4c0d42b771d9a628c371d4?s=128&d=identicon&r=PG",
+        "display_name": "tGilani",
+        "link": "http://stackoverflow.com/users/659075/tgilani"
+      },
+      "is_answered": true,
+      "view_count": 14387,
+      "accepted_answer_id": 12865179,
+      "answer_count": 1,
+      "score": 10,
+      "last_activity_date": 1350071200,
+      "creation_date": 1350042503,
+      "question_id": 12858416,
+      "link": "http://stackoverflow.com/questions/12858416/rollback-to-previous-commit-github-for-mac-a-revert-is-already-in-progress",
+      "title": "Rollback to Previous Commit - Github for MAC (a revert is already in progress)"
+    },
+    {
+      "tags": [
+        "c#",
+        "asp.net-mvc",
+        "git",
+        "visual-studio-2015",
+        "rollback"
+      ],
+      "owner": {
+        "reputation": 704,
+        "user_id": 5038735,
+        "user_type": "registered",
+        "accept_rate": 66,
+        "profile_image": "https://www.gravatar.com/avatar/bfbed6c90ebe1f63d2e9df0e0e142c0f?s=128&d=identicon&r=PG&f=1",
+        "display_name": "Waqar Ahmed",
+        "link": "http://stackoverflow.com/users/5038735/waqar-ahmed"
+      },
+      "is_answered": true,
+      "view_count": 111,
+      "accepted_answer_id": 32962686,
+      "answer_count": 2,
+      "score": 1,
+      "last_activity_date": 1444114312,
+      "creation_date": 1444109318,
+      "last_edit_date": 1444114312,
+      "question_id": 32962349,
+      "link": "http://stackoverflow.com/questions/32962349/checkout-rollback-specific-commit-id-git-possibly-duplicated",
+      "title": "Checkout/Rollback specific commit ID GIT (Possibly Duplicated)"
+    }
+  ],
+  "has_more": true,
+  "quota_max": 300,
+  "quota_remaining": 278
+}
