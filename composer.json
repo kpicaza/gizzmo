@@ -1,0 +1,64 @@
+{
+    "name": "kpicaza/slack-inspiration-bot",
+    "type": "library",
+    "description": "Slack inspiration bot.",
+    "keywords": [
+        "slack",
+        "inspiration",
+        "bot"
+    ],
+    "homepage": "https://github.com/kpicaza/slack-inspiration-bot",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kpicaza",
+            "email": "kpicaza@example.com",
+            "homepage": "https://github.com/kpicaza",
+            "role": "Developer"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "path",
+            "url": "./packages/*"
+        }
+    ],
+    "require": {
+        "php": "~5.6|~7.0",
+        "devristo/phpws": "@dev",
+        "guzzlehttp/guzzle": "~6.0",
+        "jclg/php-slack-bot": "@dev",
+        "roave/security-advisories": "dev-master",
+        "symfony/console": "^3.2",
+        "xtreamwayz/pimple-container-interop": "^1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit" : "~4.0||~5.0",
+        "squizlabs/php_codesniffer": "^2.3",
+        "filp/whoops": "^2.1",
+        "symfony/var-dumper": "^3.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Kpicaza\\Inspiration\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Kpicaza\\Inspiration\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "phpunit",
+        "check-style": "phpcs -p --standard=PSR2 --runtime-set ignore_errors_on_exit 1 --runtime-set ignore_warnings_on_exit 1 src tests",
+        "fix-style": "phpcbf -p --standard=PSR2 --runtime-set ignore_errors_on_exit 1 --runtime-set ignore_warnings_on_exit 1 src tests"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
