@@ -1,0 +1,23 @@
+{
+  "name": "inspiration/questions",
+  "license": "MIT",
+  "type": "library",
+  "description": "Inspiration - Quotes",
+  "autoload": {
+    "psr-4": {
+      "Inspiration\\Questions\\": "src/Inspiration/Questions"
+    }
+  },
+  "require": {
+    "php": "^7.0",
+    "guzzlehttp/guzzle": "~6.0"
+  },
+  "require-dev": {
+    "henrikbjorn/phpspec-code-coverage": "^3.0",
+    "memio/spec-gen": "^0.6",
+    "phpspec/phpspec": "^3.0@beta"
+  },
+  "scripts": {
+    "spec": "phpspec describe"
+  }
+}
