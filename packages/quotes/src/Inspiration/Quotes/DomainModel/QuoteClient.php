@@ -2,7 +2,6 @@
 
 namespace Inspiration\Quotes\DomainModel;
 
-
 /**
  * Interface QuoteClient
  */

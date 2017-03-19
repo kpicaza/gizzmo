@@ -42,5 +42,4 @@ class QuoteSpec extends ObjectBehavior
 
         $this->link()->shouldBe(self::LINK);
     }
-
 }
