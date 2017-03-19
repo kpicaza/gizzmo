@@ -24,7 +24,7 @@
         }
     ],
     "require": {
-        "php": "~5.6|~7.0",
+        "php": "~7.0",
         "devristo/phpws": "@dev",
         "guzzlehttp/guzzle": "~6.0",
         "jclg/php-slack-bot": "@dev",
