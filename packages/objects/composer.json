@@ -1,0 +1,22 @@
+{
+  "name": "kpicaza/objects",
+  "license": "MIT",
+  "type": "library",
+  "description": "Helper objects.",
+  "autoload": {
+    "psr-4": {
+      "Kpicaza\\Objects\\": "src/Kpicaza/Objects"
+    }
+  },
+  "require": {
+    "php": "^5.6.26||^7.0"
+  },
+  "require-dev": {
+    "henrikbjorn/phpspec-code-coverage": "^3.0",
+    "memio/spec-gen": "^0.6",
+    "phpspec/phpspec": "^3.0@beta"
+  },
+  "scripts": {
+    "spec": "phpspec describe"
+  }
+}
