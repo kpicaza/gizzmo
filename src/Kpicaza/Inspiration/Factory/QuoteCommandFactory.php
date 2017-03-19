@@ -2,6 +2,9 @@
 
 namespace Kpicaza\Inspiration\Factory;
 
+use Inspiration\Quotes\DomainModel\QuoteClient;
+use Inspiration\Quotes\DomainModel\QuoteRequestFactory;
+use Inspiration\Quotes\DomainModel\QuoteResponder;
 use Interop\Container\ContainerInterface;
 use Kpicaza\Inspiration\Command\QuoteCommand;
 
@@ -20,7 +23,9 @@ class QuoteCommandFactory
         $factory = $container->get(BotCommandFactory::class);
 
         return $factory->build(QuoteCommand::class, [
-            $container->get('Kpicaza\Inspiration\QuoteClient')
+            $container->get(QuoteClient::class),
+            $container->get(QuoteRequestFactory::class),
+            $container->get(QuoteResponder::class)
         ]);
     }
 }

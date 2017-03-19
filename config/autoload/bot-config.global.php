@@ -8,13 +8,22 @@ return [
     ],
     'dependencies' => [
         'invokables' => [
-            Kpicaza\Inspiration\Command\HelloCommand::class => Kpicaza\Inspiration\Command\HelloCommand::class,
+            Kpicaza\Inspiration\Command\HelloCommand::class =>
+                Kpicaza\Inspiration\Command\HelloCommand::class,
+            Inspiration\Quotes\DomainModel\QuoteRequestFactory::class =>
+                Inspiration\Quotes\Infrastructure\Forismatic\QuoteRequestFactory::class,
+            Inspiration\Quotes\DomainModel\QuoteResponder::class =>
+                Inspiration\Quotes\Infrastructure\Forismatic\QuoteResponder::class
         ],
         'factories' => [
-            Kpicaza\Inspiration\Command\QuoteCommand::class => Kpicaza\Inspiration\Factory\QuoteCommandFactory::class,
-            'Kpicaza\Inspiration\QuoteClient' => Kpicaza\Inspiration\Factory\QuoteClientFactory::class,
-            Kpicaza\Inspiration\Command\QuestionCommand::class => Kpicaza\Inspiration\Factory\QuestionCommandFactory::class,
-            'Kpicaza\Inspiration\QuestionClient' => Kpicaza\Inspiration\Factory\QuestionClientFactory::class,
+            Kpicaza\Inspiration\Command\QuoteCommand::class =>
+                Kpicaza\Inspiration\Factory\QuoteCommandFactory::class,
+            Inspiration\Quotes\DomainModel\QuoteClient::class =>
+                Kpicaza\Inspiration\Factory\QuoteClientFactory::class,
+            Kpicaza\Inspiration\Command\QuestionCommand::class =>
+                Kpicaza\Inspiration\Factory\QuestionCommandFactory::class,
+            'Kpicaza\Inspiration\QuestionClient' =>
+                Kpicaza\Inspiration\Factory\QuestionClientFactory::class,
         ]
     ]
 ];

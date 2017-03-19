@@ -3,7 +3,9 @@
 namespace Kpicaza\Inspiration\Command;
 
 use GuzzleHttp\ClientInterface;
-use Kpicaza\Inspiration\Exception\RuntimeException;
+use Inspiration\Quotes\DomainModel\QuoteClient;
+use Inspiration\Quotes\DomainModel\QuoteRequestFactory;
+use Inspiration\Quotes\DomainModel\QuoteResponder;
 use PhpSlackBot\Command\BaseCommand;
 
 /**
@@ -19,15 +21,36 @@ class QuoteCommand extends BaseCommand
     private $client;
 
     /**
-     * QuoteClientFactory constructor.
-     *
-     * @param ClientInterface $client
+     * @var QuoteRequestFactory
      */
-    public function __construct(ClientInterface $client)
+    private $requestFactory;
+
+    /**
+     * @var QuoteResponder
+     */
+    private $responder;
+
+    /**
+     * QuoteCommand constructor.
+     *
+     * @param QuoteClient $client
+     * @param QuoteRequestFactory $requestFactory
+     * @param QuoteResponder $responder
+     */
+    public function __construct(
+        QuoteClient $client,
+        QuoteRequestFactory $requestFactory,
+        QuoteResponder $responder
+    )
     {
         $this->client = $client;
+        $this->requestFactory = $requestFactory;
+        $this->responder = $responder;
     }
 
+    /**
+     * Configure bot command.
+     */
     protected function configure()
     {
         $this->setName('inspire me');
@@ -39,30 +62,13 @@ class QuoteCommand extends BaseCommand
      */
     protected function execute($message, $context)
     {
-        $response = $this->client->request('GET', '');
-
-        if (200 !== $response->getStatusCode()) {
-            throw new RuntimeException(
-                'Http Request failed.'
-            );
-        }
-
-        $body = json_decode((string)$response->getBody(), true);
-
-        if (
-            null === $body
-            || false === array_key_exists('quoteText', $body)
-            || true === empty($body['quoteText'])
-        ) {
-            return;
-        }
-
-        $quote = sprintf(
-            self::MESSAGE,
-            $body['quoteText'],
-            $body['quoteAuthor'],
-            $body['quoteLink']
+        $body = $this->responder->getResponse(
+            $this->client->get(
+                $this->requestFactory->getRequest()
+            )
         );
+
+        $quote = sprintf(self::MESSAGE, $body['text'], $body['author'], $body['link']);
 
         $this->send($this->getCurrentChannel(), $this->getCurrentUser(), $quote);
     }
