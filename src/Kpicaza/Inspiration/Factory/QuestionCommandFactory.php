@@ -2,7 +2,6 @@
 
 namespace Kpicaza\Inspiration\Factory;
 
-
 use Interop\Container\ContainerInterface;
 use Kpicaza\Inspiration\Command\QuestionCommand;
 

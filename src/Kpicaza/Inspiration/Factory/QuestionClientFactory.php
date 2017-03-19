@@ -8,7 +8,6 @@
 
 namespace Kpicaza\Inspiration\Factory;
 
-
 use GuzzleHttp\Client;
 use Interop\Container\ContainerInterface;
 

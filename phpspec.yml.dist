@@ -1,0 +1,16 @@
+extensions:
+  Memio\SpecGen\MemioSpecGenExtension: ~
+  PhpSpecCodeCoverage\CodeCoverageExtension:
+    format:
+      - clover
+    whitelist:
+      - src/
+      - packages/
+    output:
+      clover: coverage.clover
+
+suites:
+    src:
+        namespace: 'Inspiration\Quotes\'
+        src_path: packages/quotes/src
+        spec_path: packages/quotes

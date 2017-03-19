@@ -41,8 +41,8 @@ class QuoteCommand extends BaseCommand
         QuoteClient $client,
         QuoteRequestFactory $requestFactory,
         QuoteResponder $responder
-    )
-    {
+    ) {
+    
         $this->client = $client;
         $this->requestFactory = $requestFactory;
         $this->responder = $responder;
