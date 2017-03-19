@@ -12,7 +12,6 @@ return [
         // not require arguments to the constructor. Map a service name to the
         // class name.
         'invokables' => [
-            // Fully\Qualified\InterfaceName::class => Fully\Qualified\ClassName::class,
             Kpicaza\Inspiration\Factory\BotCommandFactory::class => Kpicaza\Inspiration\Factory\BotCommandFactory::class,
         ],
         // Use 'factories' for services provided by callbacks/factory classes.

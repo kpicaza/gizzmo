@@ -16,7 +16,7 @@ class QuoteCommand extends BaseCommand
     const MESSAGE = "\r\n>>> %s \r\n *%s* \r\n %s";
 
     /**
-     * @var ClientInterface
+     * @var QuoteClient
      */
     private $client;
 

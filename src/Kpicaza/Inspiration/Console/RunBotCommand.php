@@ -26,7 +26,6 @@ class RunBotCommand extends Command
      *
      * @param null $name
      * @param array $config
-     * @param BotCommandFactory $factory
      */
     public function __construct($name = null, array $config = [])
     {
