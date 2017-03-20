@@ -44,7 +44,7 @@ class Title
     {
         if (self::MIN_LENGTH > strlen($text)) {
             throw new InvalidArgumentException(
-                'Title is to short, it must have at least 40 characters.'
+                'Title is to short, it must have at least ' . self::MIN_LENGTH . ' characters.'
             );
         }
     }
@@ -56,7 +56,7 @@ class Title
     {
         if (self::MAX_LENGTH < strlen($text)) {
             throw new InvalidArgumentException(
-                'Title is to long, it must have up to 160 characters.'
+                'Title is to long, it must have up to ' . self::MAX_LENGTH . ' characters.'
             );
         }
     }
