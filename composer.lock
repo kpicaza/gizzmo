@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "01d6ef0bd661f7541fe484b22a5b7684",
+    "content-hash": "0e1011dc7969b9557b4c6a4deea78ba1",
     "packages": [
         {
             "name": "container-interop/container-interop",
@@ -299,6 +299,41 @@
             "time": "2017-02-27T10:51:17+00:00"
         },
         {
+            "name": "inspiration/questions",
+            "version": "dev-feature/question",
+            "dist": {
+                "type": "path",
+                "url": "./packages/questions",
+                "reference": "d9ccc592f7d6989bd58f2ebae32094d4552ea792",
+                "shasum": null
+            },
+            "require": {
+                "guzzlehttp/guzzle": "~6.0",
+                "kpicaza/objects": "@dev",
+                "php": "^7.0"
+            },
+            "require-dev": {
+                "henrikbjorn/phpspec-code-coverage": "^3.0",
+                "memio/spec-gen": "^0.6",
+                "phpspec/phpspec": "^3.0@beta"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Inspiration\\Questions\\": "src/Inspiration/Questions"
+                }
+            },
+            "scripts": {
+                "spec": [
+                    "phpspec describe"
+                ]
+            },
+            "license": [
+                "MIT"
+            ],
+            "description": "Inspiration - Quotes"
+        },
+        {
             "name": "inspiration/quotes",
             "version": "dev-master",
             "dist": {
@@ -362,6 +397,90 @@
             ],
             "description": "Slack bot user written in PHP",
             "homepage": "https://github.com/jclg/php-slack-bot"
+        },
+        {
+            "name": "kpicaza/objects",
+            "version": "dev-master",
+            "dist": {
+                "type": "path",
+                "url": "./packages/objects",
+                "reference": "4f0170b0434ad66bac27faf73de7f043f9cacb7f",
+                "shasum": null
+            },
+            "require": {
+                "php": "^5.6.26||^7.0"
+            },
+            "require-dev": {
+                "henrikbjorn/phpspec-code-coverage": "^3.0",
+                "memio/spec-gen": "^0.6",
+                "phpspec/phpspec": "^3.0@beta"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Kpicaza\\Objects\\": "src/Kpicaza/Objects"
+                }
+            },
+            "scripts": {
+                "spec": [
+                    "phpspec describe"
+                ]
+            },
+            "license": [
+                "MIT"
+            ],
+            "description": "Helper objects."
+        },
+        {
+            "name": "league/tactician",
+            "version": "v1.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/thephpleague/tactician.git",
+                "reference": "1f3aaad497f07a8bef147a37c7e3f2f7c23fcd21"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/thephpleague/tactician/zipball/1f3aaad497f07a8bef147a37c7e3f2f7c23fcd21",
+                "reference": "1f3aaad497f07a8bef147a37c7e3f2f7c23fcd21",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5"
+            },
+            "require-dev": {
+                "mockery/mockery": "~0.9",
+                "phpunit/phpunit": "~4.3",
+                "squizlabs/php_codesniffer": "~2.3"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "League\\Tactician\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Ross Tuck",
+                    "homepage": "http://tactician.thephpleague.com"
+                }
+            ],
+            "description": "A small, flexible command bus. Handy for building service layers.",
+            "keywords": [
+                "command",
+                "command bus",
+                "service layer"
+            ],
+            "time": "2016-02-20T11:14:36+00:00"
         },
         {
             "name": "pimple/pimple",
@@ -4170,15 +4289,17 @@
     "minimum-stability": "stable",
     "stability-flags": {
         "devristo/phpws": 20,
-        "jclg/php-slack-bot": 20,
-        "roave/security-advisories": 20,
         "inspiration/quotes": 20,
+        "inspiration/questions": 20,
+        "jclg/php-slack-bot": 20,
+        "kpicaza/objects": 20,
+        "roave/security-advisories": 20,
         "phpspec/phpspec": 10
     },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
-        "php": "~5.6|~7.0"
+        "php": "~7.0"
     },
     "platform-dev": []
 }

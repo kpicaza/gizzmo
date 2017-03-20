@@ -6,7 +6,6 @@ extensions:
       - html
     whitelist:
       - src/
-      - packages/
     output:
       clover: coverage.clover
       html: public/coverage
@@ -20,3 +19,11 @@ suites:
         namespace: 'Inspiration\Quotes\'
         src_path: packages/quotes/src
         spec_path: packages/quotes
+    questions:
+        namespace: 'Inspiration\Questions\'
+        src_path: packages/questions/src
+        spec_path: packages/questions
+    objects:
+        namespace: 'Kpicaza\Objects\'
+        src_path: packages/objects/src
+        spec_path: packages/objects
