@@ -46,7 +46,7 @@ class TitleSpec extends ObjectBehavior
         $this->text()->shouldBe(self::TITLE);
     }
 
-    function it_should_be_created_thoug_a_string()
+    function it_should_be_created_throug_a_string()
     {
         $this->beConstructedThrough('fromString', [self::TITLE]);
 
