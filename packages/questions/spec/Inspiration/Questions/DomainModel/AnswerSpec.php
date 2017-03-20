@@ -8,7 +8,7 @@ use Prophecy\Argument;
 
 class AnswerSpec extends ObjectBehavior
 {
-    function it_should_have_posts()
+    function it_can_have_posts()
     {
         $this->shouldHaveType(Answer::class);
     }
