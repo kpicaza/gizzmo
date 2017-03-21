@@ -19,10 +19,17 @@ if (is_file($cachedConfigFile)) {
     // Try to load the cached config
     $config = include $cachedConfigFile;
 } else {
+    $aggregator = new \Zend\ConfigAggregator\ConfigAggregator([
+        \TacticianModule\ConfigProvider::class
+    ]);
+
+    $config = ArrayUtils::merge([], $aggregator->getMergedConfig());
+
     // Load configuration from autoload path
     foreach (Glob::glob('config/autoload/{{,*.}global,{,*.}local}.php', Glob::GLOB_BRACE) as $file) {
         $config = ArrayUtils::merge($config, include $file);
     }
+
 
     // Cache config if enabled
     if (isset($config['config_cache_enabled']) && $config['config_cache_enabled'] === true) {
