@@ -3,7 +3,10 @@
 namespace Kpicaza\Inspiration\Command;
 
 use GuzzleHttp\ClientInterface;
+use Inspiration\Questions\DomainModel\QuestionRequestCommand;
 use Kpicaza\Inspiration\Exception\RuntimeException;
+use Kpicaza\Inspiration\Factory\RequestCommandFactory;
+use League\Tactician\CommandBus;
 use PhpSlackBot\Command\BaseCommand;
 
 /**
@@ -19,13 +22,29 @@ class QuestionCommand extends BaseCommand
     private $client;
 
     /**
+     * @var RequestCommandFactory
+     */
+    private $commandFactory;
+
+    /**
+     * @var CommandBus
+     */
+    private $commandBus;
+
+    /**
      * QuoteClientFactory constructor.
      *
      * @param ClientInterface $client
      */
-    public function __construct(ClientInterface $client)
+    public function __construct(
+        ClientInterface $client,
+        RequestCommandFactory $commandFactory,
+        CommandBus $commandBus
+    )
     {
         $this->client = $client;
+        $this->commandFactory = $commandFactory;
+        $this->commandBus = $commandBus;
     }
 
     protected function configure()
@@ -36,6 +55,10 @@ class QuestionCommand extends BaseCommand
     protected function execute($message, $context)
     {
         $text = substr($message['text'], 0, strlen(self::NAME));
+
+        $command = $this->commandFactory->build(QuestionRequestCommand::class, [$text]);
+
+        $answer =  $this->commandBus->handle($command);
 
         $response = $this->client->request('GET', '', [
             'query' => [

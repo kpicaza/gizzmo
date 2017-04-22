@@ -1,10 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: kpicaza
- * Date: 18/03/17
- * Time: 19:22
- */
 
 namespace Kpicaza\Inspiration\Factory;
 
@@ -13,8 +7,6 @@ use Interop\Container\ContainerInterface;
 
 class QuestionClientFactory
 {
-    const QUERY_STRING = '?order=desc&sort=activity&body=set%20default%20timezone&site=stackoverflow';
-
     /**
      * @param ContainerInterface $container
      *

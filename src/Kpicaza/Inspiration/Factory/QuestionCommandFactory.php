@@ -4,6 +4,7 @@ namespace Kpicaza\Inspiration\Factory;
 
 use Interop\Container\ContainerInterface;
 use Kpicaza\Inspiration\Command\QuestionCommand;
+use League\Tactician\CommandBus;
 
 class QuestionCommandFactory
 {
@@ -17,7 +18,9 @@ class QuestionCommandFactory
         $factory = $container->get(BotCommandFactory::class);
 
         return $factory->build(QuestionCommand::class, [
-            $container->get('Kpicaza\Inspiration\QuestionClient')
+            $container->get('Kpicaza\Inspiration\QuestionClient'),
+            $container->get(RequestCommandFactory::class),
+            $container->get(CommandBus::class)
         ]);
     }
 }
