@@ -25,17 +25,18 @@
     ],
     "require": {
         "php": "~7.0",
-        "roave/security-advisories": "dev-master",
         "devristo/phpws": "@dev",
         "guzzlehttp/guzzle": "~6.0",
-        "inspiration/quotes": "@dev",
         "inspiration/questions": "@dev",
+        "inspiration/quotes": "@dev",
         "jclg/php-slack-bot": "@dev",
         "kpicaza/objects": "@dev",
         "league/tactician": "^1.0",
+        "league/tactician-container": "^1.0",
+        "mikemix/tactician-module": "@dev",
+        "roave/security-advisories": "dev-master",
         "symfony/console": "^3.2",
         "xtreamwayz/pimple-container-interop": "^1.0",
-        "mikemix/tactician-module": "@dev",
         "zendframework/zend-config-aggregator": "^0.2.0"
     },
     "require-dev": {

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "577467fb4cf4c1ea78996ace9381c839",
+    "content-hash": "159be563cea84714d0dc904384944b85",
     "packages": [
         {
             "name": "container-interop/container-interop",
@@ -481,6 +481,57 @@
                 "service layer"
             ],
             "time": "2016-02-20T11:14:36+00:00"
+        },
+        {
+            "name": "league/tactician-container",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/thephpleague/tactician-container.git",
+                "reference": "4b75997f6655a574c4b950c7c91714fde9f31d84"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/thephpleague/tactician-container/zipball/4b75997f6655a574c4b950c7c91714fde9f31d84",
+                "reference": "4b75997f6655a574c4b950c7c91714fde9f31d84",
+                "shasum": ""
+            },
+            "require": {
+                "container-interop/container-interop": "^1.1",
+                "league/tactician": "^1.0",
+                "php": ">=5.5"
+            },
+            "require-dev": {
+                "league/container": "~2.0",
+                "phpunit/phpunit": "~4.3",
+                "squizlabs/php_codesniffer": "~2.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "League\\Tactician\\Container\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nigel Greenway",
+                    "homepage": "http://futurepixels.co.uk"
+                }
+            ],
+            "description": "Tactician integration for any container implementing the container-interop interface",
+            "keywords": [
+                "container",
+                "container-interop",
+                "di",
+                "interoperable",
+                "league",
+                "tactician"
+            ],
+            "time": "2015-12-31T12:41:26+00:00"
         },
         {
             "name": "mikemix/tactician-module",
@@ -4395,13 +4446,13 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "roave/security-advisories": 20,
         "devristo/phpws": 20,
-        "inspiration/quotes": 20,
         "inspiration/questions": 20,
+        "inspiration/quotes": 20,
         "jclg/php-slack-bot": 20,
         "kpicaza/objects": 20,
         "mikemix/tactician-module": 20,
+        "roave/security-advisories": 20,
         "phpspec/phpspec": 10
     },
     "prefer-stable": false,
