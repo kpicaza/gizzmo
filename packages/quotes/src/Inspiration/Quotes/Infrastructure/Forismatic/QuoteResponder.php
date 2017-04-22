@@ -18,7 +18,8 @@ class QuoteResponder implements BaseResponder
 
         $body = json_decode((string)$response->getBody(), true);
 
-        if (null === $body
+        if (
+            null === $body
             || false === array_key_exists('quoteText', $body)
             || true === empty($body['quoteText'])
         ) {
