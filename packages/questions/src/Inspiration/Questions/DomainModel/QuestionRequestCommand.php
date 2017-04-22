@@ -2,10 +2,12 @@
 
 namespace Inspiration\Questions\DomainModel;
 
+use Kpicaza\Objects\Command;
+
 /**
  * Class QuestionRequestCommand
  */
-class QuestionRequestCommand
+class QuestionRequestCommand implements Command
 {
     /**
      * @var string
